@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM openjdk:18-alpine3.13
+FROM eclipse-temurin:20.0.2_9-alpine
 WORKDIR /app
 RUN apk update && apk upgrade && \
     apk add --no-cache git 
